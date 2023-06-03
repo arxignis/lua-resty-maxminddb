@@ -1,18 +1,18 @@
-package = "lua-resty-maxminddb"
-version = "1.3.2-1"
+package = "lua-resty-maxminddb-multi"
+version = "1.3.4-1"
 supported_platforms = {"linux", "macosx"}
 
 source = {
-   url = "git://github.com/anjia0532/lua-resty-maxminddb",
-   tag = "v1.3.2"
+   url = "git://github.com/linuxgemini/lua-resty-maxminddb",
+   tag = "v1.3.4"
 }
 
 description = {
    summary = "About A Lua library for reading MaxMind's Geolocation database",
    detailed = [[
-      lua-resty-maxminddb - A Lua library for reading MaxMind's Geolocation database format (aka mmdb or geoip2).
+      lua-resty-maxminddb-multi - A Lua library for reading MaxMind's Geolocation database format (aka mmdb or geoip2).
    ]],
-   homepage = "https://github.com/anjia0532/lua-resty-maxminddb",
+   homepage = "https://github.com/linuxgemini/lua-resty-maxminddb",
    license = "Apache License 2.0"
 }
 dependencies = {
